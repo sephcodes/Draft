@@ -4,7 +4,9 @@ import time
 from ExcelManager import ExcelManager
 
 # Use spreadsheet
-path = 'Book.xlsx'
+my_file = 'Book.xlsx'
+# Use team name
+my_team_name = 'LaPorta Potty'
 
 driver = webdriver.Chrome()
 # Navigate to the webpage
@@ -14,10 +16,7 @@ driver.get(url)
 # Define the CSS selector for the <ul> element with multiple classes
 ul_css_selector = '.jsx-553213854.pa3'
 
-# Use team name
-my_team_name = 'LaPorta Potty'
-
-excel_manager = ExcelManager(path)
+excel_manager = ExcelManager(my_file)
 
 def get_li_elements():
     try:
