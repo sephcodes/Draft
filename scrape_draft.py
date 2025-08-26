@@ -4,9 +4,9 @@ import time
 from ExcelManager import ExcelManager
 
 # Use spreadsheet
-my_file = 'Book.xlsx'
+my_file = 'UDK Tier Rankings 2025.xlsx'
 # Use team name
-my_team_name = 'LaPorta Potty'
+my_team_name = 'Man in Jahmyrror'
 
 driver = webdriver.Chrome()
 # Navigate to the webpage

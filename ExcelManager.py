@@ -9,7 +9,7 @@ class ExcelManager:
 
     def load_data(self):
         # Define the used range
-        used_range = self.ws.range("A1:AC112")
+        used_range = self.ws.range("A1:AG138")
         values = used_range.value
         
         # Create a dictionary to store cell positions for fast lookup
